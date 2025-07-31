@@ -1,0 +1,12 @@
+The git repository contains the files, but they also must be uploaded manually to the LARC webhost
+
+E.g.:
+
+scp index.html crumsey@lamp-e.larc.nasa.gov:/usr/local/web/htdocs/hiliftpw/.
+scp experiment.html crumsey@lamp-e.larc.nasa.gov:/usr/local/web/htdocs/hiliftpw/Workshop5/.
+
+
+We also have been using two locations to store big files
+
+An AWS site (AIAA owns the account)
+An area on our LARC local server: cmb24; the files can be pointed to via ftp (e.g., https://hiliftpw-ftp.larc.nasa.gov/HiLiftPW2/...)
